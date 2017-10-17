@@ -1,11 +1,15 @@
 /* This is a comment */
-
+/*
+Date: 2017-10-17
+Editor : Chinatsu Kawakami
+Version : 0.0.2 Added id and class in practice.html and add code in css file
+*/
 body {
     text-align:center;
     margin:auto;
     background-color:#fff;
     }
-	
+
 p {color:red; }
 .myclass {color:brown;}
 
@@ -17,3 +21,5 @@ h1 {text-align:center; color:red;}
 
 
 #secret {visibility:hidden}
+/*1add code here*/
+.photo {height:150px;}
