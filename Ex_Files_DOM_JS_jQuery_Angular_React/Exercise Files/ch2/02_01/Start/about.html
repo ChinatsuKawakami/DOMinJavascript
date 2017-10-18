@@ -1,3 +1,8 @@
+<!--
+Date: 2017-10-18
+Editor : Chinatsu Kawakami
+Version : 0.0.4 add the event handler
+-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,6 +10,7 @@
     <title>Dr. Dom - About Us</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <script src="js/about.js"></script>
 </head>
 <body>
 
@@ -72,9 +78,9 @@
                 <div class="team-member">
                     <img id="frankiesmith" class="profile" src="images/frankiesmith.png">
                     <p class="team-name">Frankie Smith</p>
-                    <p class="team-title">Sponsor</p>
+                    <p class="team-title" onmouseover="effectOn('frankiesmith')" onmouseout="effectOff('frankiesmith')">Sponsor</p>
                 </div>
-                
+
                 <div class="team-member">
                     <img id="donlee" class="profile" src="images/donlee.png">
                     <p class="team-name">Don Lee</p>
