@@ -1,3 +1,8 @@
+<!--
+Date: 2017-10-18
+Editor : Chinatsu Kawakami
+Version : 0.0.5 add the event handler which shows team member's name
+-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -69,13 +74,15 @@
 
             <div class="col-lg-12">
                 <h2>Our Team</h2>
-
+                <button id="btnShowNames">Show Names</button>
+                <button id="btnHideNames">Hide Names</button>
+                <div id ="team-member-names"></div>
                 <div class="team-member">
                     <img id="frankiesmith" class="profile" src="images/frankiesmith.png">
                     <p class="team-name">Frankie Smith</p>
                     <p class="team-title" onmouseover="effectOn('frankiesmith')" onmouseout="effectOff('frankiesmith')">Sponsor</p>
                 </div>
-                
+
                 <div class="team-member">
                     <img id="donlee" class="profile" src="images/donlee.png">
                     <p class="team-name">Don Lee</p>
