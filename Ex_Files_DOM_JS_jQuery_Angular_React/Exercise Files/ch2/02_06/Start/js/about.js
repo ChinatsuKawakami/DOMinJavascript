@@ -1,10 +1,15 @@
+function changeName(e){
+  var newName = window.prompt("Enter a new titile below:");
+  e.parentElement.lastElementChild.innerHTML=newName;
+}
+
 
 window.onload = function(){
-    
+
     var btnShow = document.getElementById("btnShowNames");
     var btnHide = document.getElementById("btnHideNames");
     var result = document.getElementById("team-member-names");
-    
+
     btnShow.addEventListener("click",function(){
        var team = document.getElementsByClassName("team-name");
         var names = "";
@@ -13,12 +18,12 @@ window.onload = function(){
         }
         result.innerHTML = names;
     });
-    
+
     btnHide.addEventListener("click",function(){
        var result = document.getElementById("team-member-names");
         result.innerHTML="";
     });
-    
+
 }
 
 

@@ -1,3 +1,8 @@
+<!--
+Date: 2017-10-19
+Editor : Chinatsu Kawakami
+Version : 0.0.9 add the function to change title of person in about.js
+-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -69,7 +74,7 @@
 
             <div class="col-lg-12">
                 <h2>Our Team</h2>
-                
+
                 <button id="btnShowNames">Show Names</button>
                 <button id="btnHideNames">Hide Names</button>
                 <div id="team-member-names"></div>
@@ -79,9 +84,9 @@
                     <p class="team-name">Frankie Smith</p>
                     <p class="team-title" onmouseover="effectOn('frankiesmith')" onmouseout="effectOff('frankiesmith')">Sponsor</p>
                 </div>
-                
+
                 <div class="team-member">
-                    <img id="donlee" class="profile" src="images/donlee.png">
+                    <img id="donlee" class="profile" src="images/donlee.png" onclick="changeName(this)">
                     <p class="team-name">Don Lee</p>
                     <p class="team-title">Sponsor</p>
                 </div>
@@ -89,7 +94,7 @@
                 <br class="clear">
 
                 <div class="team-member">
-                    <img id="nickgreen" class="profile" src="images/nickgreen.png">
+                    <img id="nickgreen" class="profile" src="images/nickgreen.png" onclick="changeName(this)">
                     <p class="team-name">Nick Brown</p>
                     <p class="team-title">Team Lead</p>
                 </div>
